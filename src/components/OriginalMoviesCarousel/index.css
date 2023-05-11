@@ -1,0 +1,57 @@
+.Original-Carousel-width {
+  width: 1180px;
+}
+
+.Original-slider-carousel {
+  width: 900px;
+  height: 400px;
+  margin-left: 140px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.AiHeart-Original {
+  color: white;
+  height: 22px;
+  width: 22px;
+  margin-left: 1000px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.Heading-list-Original {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .Original-slider-carousel {
+    width: 280px;
+    height: 180px;
+    margin-left: 10px;
+  }
+  .Original-Carousel-width {
+    width: 300px;
+  }
+  .AiHeart-Original {
+    margin-left: 80px;
+    margin-left: 20px;
+  }
+  .Heading-list-Original {
+    font-size: 28px;
+  }
+}
+
+.Original-slide-Para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 140px;
+  margin-top: 40px;
+  color: #ffffff;
+}

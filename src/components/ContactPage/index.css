@@ -1,0 +1,73 @@
+.Lppp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact-us-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 17.9vh;
+  justify-content: center;
+}
+
+.Fc-Google {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Google {
+  width: 23px;
+  height: 23px;
+}
+
+.You {
+  width: 23px;
+  height: 23px;
+}
+
+.You-tube {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Insta {
+  width: 23px;
+  height: 23px;
+}
+
+.Instagram {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Twitter {
+  width: 23px;
+  height: 23px;
+}
+
+.Twitter-im {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Contact-us-Para {
+  margin-top: -50px;
+}
+.Contact-us-Paragraphs {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}

@@ -1,0 +1,187 @@
+.Search-slider-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .Search-slider-container {
+    margin-top: 70px;
+  }
+}
+
+.Slider-input-width {
+  width: 300px;
+  height: 37px;
+  margin-top: 90px;
+  background-color: transparent;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border: 1.5px solid #ffffff;
+  border-radius: 5px;
+}
+
+.Search-div-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: -70px;
+  margin-left: 708px;
+}
+
+.Gr-search-icon {
+  width: 19px;
+  height: 19px;
+  color: white;
+}
+
+.Search-input-inside-container {
+  margin-top: 20px;
+
+  margin-left: -37px;
+}
+
+.Search-icon-button-slider {
+  background-color: #131313;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 75px;
+  margin-left: -19px;
+  width: 50px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.Serach-inpui {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .Slider-input-width {
+    width: 250px;
+  }
+  .Search-div-container {
+    margin-left: 50px;
+  }
+}
+
+.Search-input-unOrdered-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.search-input-search {
+  width: 200px;
+  height: 220px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.Search-screen-container {
+  margin-top: 80px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-image-cont {
+  margin-top: 30px;
+}
+
+.Search-did-not-matches {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+.Render-search-loader-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Loader-view-list {
+  margin-top: 100px;
+}
+
+.render-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Alert-search-input {
+  margin-top: 100px;
+}
+
+.Search-input-something {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.Search-button-try-again {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #171f46;
+  flex: none;
+  order: 1;
+  width: 85px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  flex-grow: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .search-image-cont {
+    width: 300px;
+    height: 300px;
+  }
+  .Search-did-not-matches {
+    font-size: 19px;
+  }
+}
+
+.Render-search-icon-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.Render-search-filter-paragraph {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+}

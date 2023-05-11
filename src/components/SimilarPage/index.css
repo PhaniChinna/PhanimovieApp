@@ -1,0 +1,20 @@
+.Similar-movies-list-Route {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 55px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .Similar-movies-list-Route {
+    width: 120px;
+    height: 120px;
+    margin-right: 55px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: -28px;
+  }
+}

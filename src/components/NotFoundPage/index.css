@@ -1,0 +1,80 @@
+.Not-FOund-page {
+  width: 100vw;
+  height: 99vh;
+}
+
+.Not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -400px;
+}
+
+.Not-found-lost-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .Not-found-lost-heading {
+    font-size: 40px;
+  }
+}
+
+.Not-found-Para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -30px;
+}
+
+@media screen and (max-width: 767px) {
+  .Not-found-Para {
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+.Not-found-button {
+  width: 100px;
+  height: 35px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  color: #171f46;
+}
+
+.Play-Game {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.Button-play-game {
+  margin-right: 40px;
+  margin-top: 90px;
+  height: 32px;
+  width: 130px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  color: #171f46;
+}

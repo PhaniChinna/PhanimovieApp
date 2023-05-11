@@ -1,0 +1,62 @@
+.List-un-Ordered {
+  list-style-type: none;
+}
+
+.Popular-render {
+  background-color: #0d0d0d;
+  min-height: 100px;
+  background-size: cover;
+  padding: 2px;
+}
+
+@media screen and (max-width: 767px) {
+  .Popular-render {
+    margin-top: 80px;
+  }
+}
+
+.loader-container-Popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 84.2vh;
+  justify-content: center;
+}
+
+.Failure-trending-Popular {
+  height: 84.2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Para-Popular {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.TryAgain-Popular {
+  width: 90px;
+  height: 30px;
+  outline: none;
+  border: none;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #171f46;
+  cursor: pointer;
+}
+
+.Contact-us-page-Popular-page {
+  background-color: #131313;
+  margin-top: 30px;
+  background-size: cover;
+  padding: 5px;
+  margin-top: -5px;
+  height: 19vh;
+}

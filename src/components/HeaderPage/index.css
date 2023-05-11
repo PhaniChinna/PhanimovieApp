@@ -1,0 +1,282 @@
+.Header-page-container {
+  background-color: #131313;
+  height: 80px;
+  padding: 3px;
+  width: auto;
+  flex: 0px 10px 140px;
+}
+
+.Website-logo-image-header {
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.Div-Header-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 200px;
+  margin-top: -45px;
+}
+
+@media screen and (max-width: 767px) {
+  .Header-page-container {
+    height: 100px;
+  }
+  .Div-Header-top-container {
+    margin-right: 0px;
+    display: flex;
+    margin-top: 10px;
+  }
+}
+
+.Heading-unOrder-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.Home-list-heading {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  width: 65px;
+  text-align: center;
+  font-size: 16px;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Home-list-popular {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  width: 60px;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Home-list-MovieDetails {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'HK Grotesk';
+  width: 100px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Home-list-search {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  width: 70px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Home-list-Account {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  width: 70px;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .Home-list-heading {
+    display: none;
+  }
+  .Home-list-popular {
+    display: none;
+  }
+  .Home-list-MovieDetails {
+    display: none;
+  }
+  .Home-list-search {
+    display: none;
+  }
+  .Home-list-Account {
+    display: none;
+  }
+}
+
+.AiHome {
+  color: gold;
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.Lo {
+  margin-top: -40px;
+  margin-right: -50px;
+}
+
+.Home-Heading {
+  color: gold;
+  width: 20px;
+  height: 20px;
+}
+
+.Bs-fill {
+  color: white;
+  height: 22px;
+  width: 22px;
+}
+
+.As-star {
+  color: gold;
+  width: 12px;
+  display: flex;
+  margin-top: -30px;
+  margin-left: 15px;
+  height: 12px;
+}
+
+.Movie-detail {
+  color: gold;
+  width: 22px;
+  height: 22px;
+}
+
+.BsSearch {
+  color: gold;
+}
+
+.Home-VscAccount {
+  color: gold;
+  width: 18px;
+  height: 18px;
+}
+
+.Mobile-heading {
+  display: flex;
+  margin-right: 100px;
+}
+
+@media screen and (min-width: 767px) {
+  .Mobile-heading {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Mobile-heading {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.CgMenuGr {
+  color: goldenrod;
+  margin-top: -70px;
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+
+.un-ordered-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.Loppp {
+  margin-left: 10px;
+  background-color: Red;
+  opacity: 7;
+  width: 70vw;
+  display: flex;
+  border-radius: 15px;
+}
+
+.Home-list-items {
+  margin-left: -15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Header-popular {
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Header-Detail {
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Header-search {
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Header-search {
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Header-Account {
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Logout {
+  color: Red;
+  cursor: pointer;
+}
+
+.Home-Heading-list {
+  color: white;
+  text-decoration: none;
+}
+
+.Popular-Link {
+  color: white;
+  text-decoration: none;
+}
+
+.Account-Route {
+  color: white;
+  text-decoration: none;
+}
+
+.search-Link {
+  color: white;
+  text-decoration: none;
+}

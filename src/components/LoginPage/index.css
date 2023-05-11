@@ -1,0 +1,235 @@
+.Login-page-container {
+  background-image: url('https://res.cloudinary.com/dkwof0tuj/image/upload/v1680071364/netfilx_1_ivb9o8.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 2px;
+  flex: 0px 10px 140px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.Website-logo {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 35px;
+  flex: 0px 10px 140px;
+}
+
+.Lo {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .Lo {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.Form-container {
+  background-color: #0c0b10;
+  opacity: 0.7;
+  min-width: 350px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 17px;
+  flex: 0px 10px 140px;
+}
+
+@media screen and (max-width: 767px) {
+  .Form-container {
+    margin-left: -40px;
+  }
+}
+
+.Login-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.Label-Username {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 2px;
+  margin-left: -130px;
+  color: #ffffff;
+}
+
+.Input-username {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  width: 230px;
+  height: 32px;
+  font-size: 15px;
+  border-radius: 7px;
+  outline: none;
+  color: black;
+  border: none;
+  border: 1px solid white;
+  padding: 9px;
+  margin-bottom: 10px;
+}
+
+.Render-username {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Render-password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0px 10px 140px;
+}
+
+.Label-password {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  margin-left: -125px;
+  color: #ffffff;
+}
+
+.Input-password {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  width: 230px;
+  height: 32px;
+  font-size: 15px;
+  border-radius: 7px;
+  outline: none;
+  color: black;
+  border: none;
+  border: 1px solid white;
+  padding: 9px;
+  margin-bottom: 10px;
+}
+
+.Render-button {
+  margin-top: 5px;
+  margin-top: 28px;
+  margin-bottom: 5px;
+}
+
+.button-Route {
+  font-family: 'HK Grotesk';
+  padding: 10px 10px;
+  width: 100px;
+  font-size: 15px;
+  background-image: linear-gradient(#f70000, #ff0077);
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button-Route-list {
+  font-family: 'HK Grotesk';
+  padding: 10px 10px;
+  width: 100px;
+  font-size: 15px;
+  background-color: #00c918;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.Login-className-container {
+  background-color: white;
+  border-radius: 100px;
+  width: 40px;
+  text-align: center;
+  height: 28px;
+  margin-left: 190px;
+  margin-top: -38px;
+}
+
+.Container-Result {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.Door-Open {
+  color: red;
+}
+
+.Door-close {
+  color: green;
+}
+
+.Final-Result-container {
+  display: flex;
+  margin-left: 190px;
+  margin-top: -33px;
+}
+
+.ShowError_msg {
+  color: Red;
+}
+
+.MatchGaME {
+  width: 200px;
+  height: 50px;
+  margin-right: 90px;
+  margin-top: -20px;
+  cursor: pointer;
+}
+.Match-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .MatchGaME {
+    display: none;
+  }
+}
+
+.Logo-image-game {
+  margin-top: -30px;
+  width: 200px;
+  cursor: pointer;
+  height: 50px;
+}
+
+.Container-list-match-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  .Container-list-match-game {
+    display: none;
+  }
+}

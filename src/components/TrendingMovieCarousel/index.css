@@ -1,0 +1,57 @@
+.Trending-Carousel-width {
+  width: 1180px;
+}
+
+.Trending-slider-carousel {
+  width: 900px;
+  height: 400px;
+  margin-left: 140px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.AiHeart {
+  color: white;
+  height: 22px;
+  width: 22px;
+  margin-left: 1000px;
+  margin-top: -45px;
+  margin-bottom: 45px;
+  cursor: pointer;
+}
+
+.Heading-list {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .Trending-slider-carousel {
+    width: 280px;
+    height: 180px;
+    margin-left: 10px;
+  }
+  .Trending-Carousel-width {
+    width: 300px;
+  }
+  .AiHeart {
+    margin-left: 80px;
+    margin-left: 20px;
+  }
+  .Heading-list {
+    font-size: 28px;
+  }
+}
+
+.Trending-slide-Para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 140px;
+  margin-top: 30px;
+  color: #ffffff;
+}

@@ -1,0 +1,57 @@
+.TopRated-Carousel-width {
+  width: 1180px;
+}
+
+.TopRated-slider-carousel {
+  width: 900px;
+  height: 400px;
+  margin-left: 140px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.AiHeart-TopRated {
+  color: white;
+  height: 22px;
+  width: 22px;
+  margin-left: 1000px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.Heading-list-TopRated {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .TopRated-slider-carousel {
+    width: 280px;
+    height: 180px;
+    margin-left: 10px;
+  }
+  .TopRated-Carousel-width {
+    width: 300px;
+  }
+  .AiHeart-TopRated {
+    margin-left: 80px;
+    margin-left: 20px;
+  }
+  .Heading-list-TopRated {
+    font-size: 28px;
+  }
+}
+
+.TopRated-slide-Para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 140px;
+  margin-top: 40px;
+  color: #ffffff;
+}
